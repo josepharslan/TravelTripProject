@@ -21,22 +21,22 @@ ASP.NET MVC 5 teknolojisi kullanılarak geliştirilmiş olup kullanıcıya desti
 ## 🖼️ Uygulama Görselleri
 
 Ana Sayfa:  
-<img src="images/MainPage.png" width="700"/>
+<img src="TravelTripProject/images/MainPage.png" width="700"/>
 
 Blog Sayfası:  
-<img src="images/BlogIndex.png" width="700"/>
+<img src="TravelTripProject/images/BlogIndex.png" width="700"/>
 
 İletişim Formu:  
-<img src="images/ContactIndex.png" width="700"/>
+<img src="TravelTripProject/images/ContactIndex.png" width="700"/>
 
 Giriş Ekranı:  
-<img src="images/LoginPage.png" width="700"/>
+<img src="TravelTripProject/images/LoginPage.png" width="700"/>
 
 Admin Paneli – Bloglar:  
-<img src="images/AdminBlogList.png" width="700"/>
+<img src="TravelTripProject/images/AdminBlogList.png" width="700"/>
 
 Admin Paneli – Yorumlar:  
-<img src="images/AdminCommentList.png" width="700"/>
+<img src="TravelTripProject/images/AdminCommentList.png" width="700"/>
 
 Admin Paneli – İletişim Mesajları:  
-<img src="images/AdminContactList.png" width="700"/>
+<img src="TravelTripProject/images/AdminContactList.png" width="700"/>
