@@ -1,0 +1,25 @@
+﻿@model TravelTripProject.Models.Siniflar.Iletisim
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_TestLayout.cshtml";
+}
+
+<br />
+<div class="container mb-3 >
+
+    <form method="post">
+        @Html.LabelFor(x => x.AdSoyad, "Ad Soyad")
+        @Html.TextBoxFor(x => x.AdSoyad, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.Mail, "Mail Adresi")
+        @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.Konu, "Konu")
+        @Html.TextBoxFor(x => x.Konu, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.Mesaj, "Mesaj")
+        @Html.TextAreaFor(x => x.Mesaj, 5, 1, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-primary">Mesaj Gönder</button>
+    </form>
+</div>
