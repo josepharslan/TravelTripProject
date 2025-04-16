@@ -1,0 +1,27 @@
+﻿@using TravelTripProject.Models.Siniflar
+@model List<Blog>
+<div class="con-top">
+    <h3>Tatil Seyahat Bloguma Hoşgeldiniz!</h3>
+    <p>Ben Yusuf Arslan, bu proje Murat Yücedağ'ın Youtube'da yayınlamış olduğu Mvc5 ile Tatil Seyahat Sitesi dersinin projesidir. Mvc5 Kullanılarak geliştirilen bu projede pratik yapmayı ve Mvc bilgimi pekiştirmeyi amaçlıyorum.</p>
+</div>
+
+<div class="con-bot">
+    @foreach (var x in Model)
+    {
+        <div class="left">
+            <div class="bot-left">
+                <img src="@x.BlogImage" style="width:276px;height:150px;" />
+            </div>
+            <div class="left-text">
+                <h4>@x.Baslik</h4>
+                <span class="doller">@x.Tarih.ToString("d")</span>
+                <p>@x.Aciklama.Substring(0,80)</p>
+                <p><a href="/Blog/BlogDetay/@x.ID"><span class="read">Devamını Oku</span></a></p>
+            </div>
+        </div>
+    }
+    @Html.Action("Partial2", "Default")
+    <div class="clear">
+
+    </div>
+</div>
