@@ -40,9 +40,3 @@ Admin Paneli – Yorumlar:
 
 Admin Paneli – İletişim Mesajları:  
 <img src="images/AdminContactList.png" width="700"/>
-
-## 🔧 Kurulum ve Çalıştırma
-
-1. Bu repoyu klonlayın veya ZIP olarak indirin:
-   ```bash
-   git clone https://github.com/kullaniciadi/TravelTripProject.git
